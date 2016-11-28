@@ -1,0 +1,684 @@
+I, [2016-11-28T08:47:20.858777 #30497]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 08:47:20 +0000
+I, [2016-11-28T08:47:20.864650 #30497]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T08:47:20.875743 #30497]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.5ms)
+I, [2016-11-28T08:47:20.877631 #30497]  INFO -- : Completed 200 OK in 13ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T08:47:21.269565 #30497]  INFO -- : Started GET "/stylesheets/application.css" for 183.83.114.206 at 2016-11-28 08:47:21 +0000
+F, [2016-11-28T08:47:21.270527 #30497] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:47:21.644559 #30497]  INFO -- : Started GET "/javascripts/application.js" for 183.83.114.206 at 2016-11-28 08:47:21 +0000
+F, [2016-11-28T08:47:21.645388 #30497] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:47:25.745096 #30497]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 08:47:25 +0000
+I, [2016-11-28T08:47:25.745472 #30497]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T08:51:29.151609 #30684]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 08:51:29 +0000
+I, [2016-11-28T08:51:29.157506 #30684]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T08:51:29.168588 #30684]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.4ms)
+I, [2016-11-28T08:51:29.170409 #30684]  INFO -- : Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T08:51:29.736366 #30684]  INFO -- : Started GET "/stylesheets/application.css" for 183.83.114.206 at 2016-11-28 08:51:29 +0000
+F, [2016-11-28T08:51:29.737286 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:51:30.051090 #30684]  INFO -- : Started GET "/javascripts/application.js" for 183.83.114.206 at 2016-11-28 08:51:30 +0000
+F, [2016-11-28T08:51:30.051928 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:51:32.030411 #30684]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 08:51:32 +0000
+I, [2016-11-28T08:51:32.030781 #30684]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T08:52:39.504438 #30684]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 08:52:39 +0000
+I, [2016-11-28T08:52:39.505349 #30684]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T08:52:39.506195 #30684]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T08:52:39.506918 #30684]  INFO -- : Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T08:52:39.905097 #30684]  INFO -- : Started GET "/stylesheets/application.css" for 183.83.114.206 at 2016-11-28 08:52:39 +0000
+F, [2016-11-28T08:52:39.905960 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:52:40.238231 #30684]  INFO -- : Started GET "/javascripts/application.js" for 183.83.114.206 at 2016-11-28 08:52:40 +0000
+F, [2016-11-28T08:52:40.239120 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T08:52:41.556701 #30684]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 08:52:41 +0000
+I, [2016-11-28T08:52:41.557054 #30684]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T08:53:21.759982 #30684]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 08:53:21 +0000
+I, [2016-11-28T08:53:21.760320 #30684]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:04:18.600186 #30684]  INFO -- : Started GET "/auth/google_oauth2/callback?state=30049e57131ec3f934eac5b3e3cbed8907e93c0a9e51137a&code=4/djrNKkSjwEbw70ybS82YdzGt9eB3KvWx79d5W2imWdE" for 183.83.114.206 at 2016-11-28 09:04:18 +0000
+I, [2016-11-28T09:04:18.600472 #30684]  INFO -- : (google_oauth2) Callback phase initiated.
+I, [2016-11-28T09:04:19.084332 #30684]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T09:04:19.084415 #30684]  INFO -- :   Parameters: {"state"=>"30049e57131ec3f934eac5b3e3cbed8907e93c0a9e51137a", "code"=>"4/djrNKkSjwEbw70ybS82YdzGt9eB3KvWx79d5W2imWdE", "provider"=>"google_oauth2"}
+I, [2016-11-28T09:04:19.085792 #30684]  INFO -- : Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.3ms)
+F, [2016-11-28T09:04:19.086467 #30684] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:3:in `from_omniauth'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+I, [2016-11-28T09:04:47.484224 #30684]  INFO -- : Started GET "/auth/google_oauth2/callback?state=30049e57131ec3f934eac5b3e3cbed8907e93c0a9e51137a&code=4/djrNKkSjwEbw70ybS82YdzGt9eB3KvWx79d5W2imWdE" for 183.83.114.206 at 2016-11-28 09:04:47 +0000
+I, [2016-11-28T09:04:47.484526 #30684]  INFO -- : (google_oauth2) Callback phase initiated.
+E, [2016-11-28T09:04:47.601624 #30684] ERROR -- : (google_oauth2) Authentication failure! invalid_credentials: OAuth2::Error, invalid_grant: Code was already redeemed.
+{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}
+I, [2016-11-28T09:04:47.964331 #30684]  INFO -- : Started GET "/auth/failure?message=invalid_credentials&origin=http%3A%2F%2Fec2-35-164-97-74.us-west-2.compute.amazonaws.com%2F&strategy=google_oauth2" for 183.83.114.206 at 2016-11-28 09:04:47 +0000
+I, [2016-11-28T09:04:48.345698 #30684]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:04:48 +0000
+I, [2016-11-28T09:04:48.346397 #30684]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:04:48.347029 #30684]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T09:04:48.347502 #30684]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:04:48.766256 #30684]  INFO -- : Started GET "/stylesheets/application.css" for 183.83.114.206 at 2016-11-28 09:04:48 +0000
+F, [2016-11-28T09:04:48.766961 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T09:04:49.074854 #30684]  INFO -- : Started GET "/javascripts/application.js" for 183.83.114.206 at 2016-11-28 09:04:49 +0000
+F, [2016-11-28T09:04:49.075562 #30684] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2016-11-28T09:04:56.225568 #30684]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:04:56 +0000
+I, [2016-11-28T09:04:56.225849 #30684]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:04:59.257337 #30684]  INFO -- : Started GET "/auth/google_oauth2/callback?state=ca8c698aa662fbf1acea702947b0eec105278d31c2604325&code=4/krRZyzL_tqbHuvjJqbaOHaabFQ82749_8zKPG67r1DM" for 183.83.114.206 at 2016-11-28 09:04:59 +0000
+I, [2016-11-28T09:04:59.257624 #30684]  INFO -- : (google_oauth2) Callback phase initiated.
+I, [2016-11-28T09:04:59.676386 #30684]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T09:04:59.676466 #30684]  INFO -- :   Parameters: {"state"=>"ca8c698aa662fbf1acea702947b0eec105278d31c2604325", "code"=>"4/krRZyzL_tqbHuvjJqbaOHaabFQ82749_8zKPG67r1DM", "provider"=>"google_oauth2"}
+I, [2016-11-28T09:04:59.676961 #30684]  INFO -- : Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.1ms)
+F, [2016-11-28T09:04:59.677611 #30684] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:3:in `from_omniauth'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+I, [2016-11-28T09:19:07.307177 #11545]  INFO -- : Migrating to CreateUsers (20131117003554)
+I, [2016-11-28T09:20:13.159157 #11678]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:20:13 +0000
+I, [2016-11-28T09:20:13.165164 #11678]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:20:13.177277 #11678]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.4ms)
+I, [2016-11-28T09:20:13.179094 #11678]  INFO -- : Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:20:18.913218 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:20:18 +0000
+I, [2016-11-28T09:20:18.913624 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:20:21.284749 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:20:21 +0000
+I, [2016-11-28T09:20:21.285090 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:20:31.344343 #11678]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:20:31 +0000
+I, [2016-11-28T09:20:31.345242 #11678]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:20:31.346130 #11678]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.1ms)
+I, [2016-11-28T09:20:31.346784 #11678]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:20:34.499621 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:20:34 +0000
+I, [2016-11-28T09:20:34.500009 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:20:36.323930 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:20:36 +0000
+I, [2016-11-28T09:20:36.324282 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:21:41.080918 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:21:41 +0000
+I, [2016-11-28T09:21:41.081270 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:21:43.052174 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:21:43 +0000
+I, [2016-11-28T09:21:43.052509 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:25:32.753014 #11678]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:25:32 +0000
+I, [2016-11-28T09:25:32.753731 #11678]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:25:32.754380 #11678]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T09:25:32.754887 #11678]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:25:35.668584 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:25:35 +0000
+I, [2016-11-28T09:25:35.668896 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:25:38.116198 #11678]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:25:38 +0000
+I, [2016-11-28T09:25:38.116504 #11678]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:44:02.897197 #25405]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:44:02 +0000
+I, [2016-11-28T09:44:02.903578 #25405]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:44:02.916014 #25405]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.5ms)
+I, [2016-11-28T09:44:02.917801 #25405]  INFO -- : Completed 200 OK in 14ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:44:07.184759 #25405]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:44:07 +0000
+I, [2016-11-28T09:44:07.185191 #25405]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:44:12.084990 #25405]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:44:12 +0000
+I, [2016-11-28T09:44:12.085332 #25405]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:44:57.343881 #25405]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:44:57 +0000
+I, [2016-11-28T09:44:57.344781 #25405]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:44:57.345559 #25405]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T09:44:57.346184 #25405]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:45:43.163062 #25405]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:45:43 +0000
+I, [2016-11-28T09:45:43.163410 #25405]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:45:44.106802 #25405]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:45:44 +0000
+I, [2016-11-28T09:45:44.107144 #25405]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:54:17.648063 #25742]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:54:17 +0000
+I, [2016-11-28T09:54:17.654297 #25742]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:54:17.665615 #25742]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.5ms)
+I, [2016-11-28T09:54:17.667429 #25742]  INFO -- : Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:54:24.868779 #25742]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:54:24 +0000
+I, [2016-11-28T09:54:24.869211 #25742]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:54:26.334043 #25742]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:54:26 +0000
+I, [2016-11-28T09:54:26.334414 #25742]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:54:36.777718 #25742]  INFO -- : Started GET "/auth/google_oauth2/callback?state=b2a2b0d685f6effc1e1edfef889004b02904cf18baf57e61&code=4/u3NU-iOHm2Als-MkLLMG7yah2kGuY5KzAFm70O2NUGI" for 183.83.114.206 at 2016-11-28 09:54:36 +0000
+I, [2016-11-28T09:54:36.778069 #25742]  INFO -- : (google_oauth2) Callback phase initiated.
+E, [2016-11-28T09:54:37.174312 #25742] ERROR -- : (google_oauth2) Authentication failure! invalid_credentials: OAuth2::Error, {"errors"=>[{"domain"=>"global", "reason"=>"insufficientPermissions", "message"=>"Insufficient Permission"}], "code"=>403, "message"=>"Insufficient Permission"}: 
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "insufficientPermissions",
+    "message": "Insufficient Permission"
+   }
+  ],
+  "code": 403,
+  "message": "Insufficient Permission"
+ }
+}
+
+I, [2016-11-28T09:54:37.609517 #25742]  INFO -- : Started GET "/auth/failure?message=invalid_credentials&origin=http%3A%2F%2Fec2-35-164-97-74.us-west-2.compute.amazonaws.com%2F&strategy=google_oauth2" for 183.83.114.206 at 2016-11-28 09:54:37 +0000
+I, [2016-11-28T09:54:38.042366 #25742]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:54:38 +0000
+I, [2016-11-28T09:54:38.043278 #25742]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:54:38.044129 #25742]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T09:54:38.044797 #25742]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T09:54:46.371875 #25742]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:54:46 +0000
+I, [2016-11-28T09:54:46.372246 #25742]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:54:47.019915 #25742]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 09:54:47 +0000
+I, [2016-11-28T09:54:47.021561 #25742]  INFO -- : (google_oauth2) Request phase initiated.
+I, [2016-11-28T09:55:09.405756 #25742]  INFO -- : Started GET "/auth/google_oauth2/callback?state=ab2d2a863bec3e3f0d5c2af5afa8fb4fa92098eea7b0e96a&code=4/wlfF8jWg9ERrM1Lf-Uv6Ws2llXAkmm_DO4u4UAvOIRo" for 183.83.114.206 at 2016-11-28 09:55:09 +0000
+I, [2016-11-28T09:55:09.406133 #25742]  INFO -- : (google_oauth2) Callback phase initiated.
+E, [2016-11-28T09:55:09.715840 #25742] ERROR -- : (google_oauth2) Authentication failure! invalid_credentials: OAuth2::Error, {"errors"=>[{"domain"=>"global", "reason"=>"insufficientPermissions", "message"=>"Insufficient Permission"}], "code"=>403, "message"=>"Insufficient Permission"}: 
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "insufficientPermissions",
+    "message": "Insufficient Permission"
+   }
+  ],
+  "code": 403,
+  "message": "Insufficient Permission"
+ }
+}
+
+I, [2016-11-28T09:55:10.107589 #25742]  INFO -- : Started GET "/auth/failure?message=invalid_credentials&origin=http%3A%2F%2Fec2-35-164-97-74.us-west-2.compute.amazonaws.com%2F&strategy=google_oauth2" for 183.83.114.206 at 2016-11-28 09:55:10 +0000
+I, [2016-11-28T09:55:10.495368 #25742]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 09:55:10 +0000
+I, [2016-11-28T09:55:10.496224 #25742]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T09:55:10.496946 #25742]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T09:55:10.497530 #25742]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:10:29.918331 #26169]  INFO -- : Started GET "/auth/google_oauth2/callback?state=ab2d2a863bec3e3f0d5c2af5afa8fb4fa92098eea7b0e96a&code=4/evvp5GIc_7o2n3rNQAUAXsgsaIk4kzpPghUiAVLQz3o" for 183.83.114.206 at 2016-11-28 10:10:29 +0000
+I, [2016-11-28T10:10:30.322445 #26169]  INFO -- : Started GET "/auth/failure?message=csrf_detected&strategy=google_oauth2" for 183.83.114.206 at 2016-11-28 10:10:30 +0000
+I, [2016-11-28T10:10:30.707488 #26169]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:10:30 +0000
+I, [2016-11-28T10:10:30.709631 #26169]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:10:30.715051 #26169]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.4ms)
+I, [2016-11-28T10:10:30.716849 #26169]  INFO -- : Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:10:41.738714 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:10:41 +0000
+I, [2016-11-28T10:10:41.744892 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:10:41.756114 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.6ms)
+I, [2016-11-28T10:10:41.757869 #26251]  INFO -- : Completed 200 OK in 13ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:10:44.723626 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:10:44 +0000
+I, [2016-11-28T10:10:46.360605 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:10:46 +0000
+I, [2016-11-28T10:10:50.652527 #26251]  INFO -- : Started GET "/auth/google_oauth2/callback?state=739de01861c23da5e51796b560ccbdeb9fbd9d1575f51a27&code=4/ObH6gcS_gj9z3pfwTcL-rsgsaIk4kzpPghUiAVLQz3o" for 183.83.114.206 at 2016-11-28 10:10:50 +0000
+I, [2016-11-28T10:10:51.123888 #26251]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:10:51.123980 #26251]  INFO -- :   Parameters: {"state"=>"739de01861c23da5e51796b560ccbdeb9fbd9d1575f51a27", "code"=>"4/ObH6gcS_gj9z3pfwTcL-rsgsaIk4kzpPghUiAVLQz3o", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:10:51.144395 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:10:51.144563 #26251]  INFO -- : Completed 302 Found in 21ms (ActiveRecord: 4.5ms)
+I, [2016-11-28T10:10:51.585005 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:10:51 +0000
+I, [2016-11-28T10:10:51.585913 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:10:51.586753 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.1ms)
+I, [2016-11-28T10:10:51.590841 #26251]  INFO -- : Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+I, [2016-11-28T10:10:57.729476 #26251]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:10:57 +0000
+I, [2016-11-28T10:10:57.730537 #26251]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:10:57.731112 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:10:57.731253 #26251]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:10:58.123220 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:10:58 +0000
+I, [2016-11-28T10:10:58.124122 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:10:58.124890 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:10:58.125469 #26251]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:11:00.538503 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:11:00 +0000
+I, [2016-11-28T10:11:01.899074 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:11:01 +0000
+I, [2016-11-28T10:11:06.564529 #26251]  INFO -- : Started GET "/auth/google_oauth2/callback?state=4d0b5626ff28df8a2de3e960632a5bcd660ccf301af97588&code=4/KLwU82IvrAVT1NhcrMUMcyvSroaALjFtS9rO7zvleuc" for 183.83.114.206 at 2016-11-28 10:11:06 +0000
+I, [2016-11-28T10:11:07.006678 #26251]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:11:07.006771 #26251]  INFO -- :   Parameters: {"state"=>"4d0b5626ff28df8a2de3e960632a5bcd660ccf301af97588", "code"=>"4/KLwU82IvrAVT1NhcrMUMcyvSroaALjFtS9rO7zvleuc", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:11:07.012424 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:11:07.012550 #26251]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 3.5ms)
+I, [2016-11-28T10:11:07.434662 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:11:07 +0000
+I, [2016-11-28T10:11:07.435464 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:11:07.436218 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:11:07.437180 #26251]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:11:11.824019 #26251]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:11:11 +0000
+I, [2016-11-28T10:11:11.824847 #26251]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:11:11.825399 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:11:11.825537 #26251]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:11:12.338104 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:11:12 +0000
+I, [2016-11-28T10:11:12.340057 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:11:12.340765 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:11:12.341324 #26251]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:16:29.341000 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:16:29 +0000
+I, [2016-11-28T10:16:30.268171 #26251]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:16:30 +0000
+I, [2016-11-28T10:16:59.374908 #26251]  INFO -- : Started GET "/auth/google_oauth2/callback?state=3053769df7474423283ebf45601c44cf9dede87e2a576382&code=4/4DxEwsFGIVvjscf-GxPbQ3pSLaByl1K8FKEkwqxZoo0" for 183.83.114.206 at 2016-11-28 10:16:59 +0000
+I, [2016-11-28T10:16:59.872537 #26251]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:16:59.872620 #26251]  INFO -- :   Parameters: {"state"=>"3053769df7474423283ebf45601c44cf9dede87e2a576382", "code"=>"4/4DxEwsFGIVvjscf-GxPbQ3pSLaByl1K8FKEkwqxZoo0", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:16:59.891291 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:16:59.891420 #26251]  INFO -- : Completed 302 Found in 19ms (ActiveRecord: 16.8ms)
+I, [2016-11-28T10:17:00.308114 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:17:00 +0000
+I, [2016-11-28T10:17:00.308896 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:17:00.309581 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:17:00.310480 #26251]  INFO -- : Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:17:04.525973 #26251]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:17:04 +0000
+I, [2016-11-28T10:17:04.526797 #26251]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:17:04.527328 #26251]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:17:04.527457 #26251]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:17:05.406056 #26251]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:17:05 +0000
+I, [2016-11-28T10:17:05.407987 #26251]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:17:05.408662 #26251]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:17:05.409174 #26251]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:38:19.246480 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:38:19 +0000
+I, [2016-11-28T10:38:19.252630 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:38:19.264590 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.5ms)
+I, [2016-11-28T10:38:19.266431 #27562]  INFO -- : Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:38:21.884019 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:38:21 +0000
+I, [2016-11-28T10:38:24.091381 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:38:24 +0000
+I, [2016-11-28T10:38:25.300964 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=92f84122f75670aa27c68804184ffa5bca45ae6d5369cf90&code=4/81O9UGhfCwfDO-wzSwq94AcR9F3ytpcCiLnduYxToSY" for 183.83.114.206 at 2016-11-28 10:38:25 +0000
+I, [2016-11-28T10:38:25.770257 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:38:25.770343 #27562]  INFO -- :   Parameters: {"state"=>"92f84122f75670aa27c68804184ffa5bca45ae6d5369cf90", "code"=>"4/81O9UGhfCwfDO-wzSwq94AcR9F3ytpcCiLnduYxToSY", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:38:25.790258 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:38:25.790437 #27562]  INFO -- : Completed 302 Found in 20ms (ActiveRecord: 4.1ms)
+I, [2016-11-28T10:38:26.179550 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:38:26 +0000
+I, [2016-11-28T10:38:26.180543 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:38:26.181370 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.1ms)
+I, [2016-11-28T10:38:26.183832 #27562]  INFO -- : Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+I, [2016-11-28T10:38:30.075973 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:38:30 +0000
+I, [2016-11-28T10:38:30.077129 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:38:30.077727 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:38:30.077870 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:38:31.088970 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:38:31 +0000
+I, [2016-11-28T10:38:31.089825 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:38:31.090586 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:38:31.091165 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:39:04.310969 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:39:04 +0000
+I, [2016-11-28T10:39:04.715908 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:39:04 +0000
+I, [2016-11-28T10:39:32.020620 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:39:32 +0000
+I, [2016-11-28T10:39:32.021440 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:39:32.022135 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:39:32.022663 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:39:53.221974 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:39:53 +0000
+I, [2016-11-28T10:39:53.222778 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:39:53.223469 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:39:53.224070 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:39:56.743878 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:39:56 +0000
+I, [2016-11-28T10:39:58.280212 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:39:58 +0000
+I, [2016-11-28T10:39:59.983376 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=0ee2f78e4abeefc3af8ce8a69179fa3fa78642edf993708b&code=4/qjlA9i0f8hs8BGWnWZWFRjFUL7f-xcaKJDoRalAIcAw" for 183.83.114.206 at 2016-11-28 10:39:59 +0000
+I, [2016-11-28T10:40:00.404494 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:40:00.404587 #27562]  INFO -- :   Parameters: {"state"=>"0ee2f78e4abeefc3af8ce8a69179fa3fa78642edf993708b", "code"=>"4/qjlA9i0f8hs8BGWnWZWFRjFUL7f-xcaKJDoRalAIcAw", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:40:00.409715 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:40:00.409842 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.1ms)
+I, [2016-11-28T10:40:01.359328 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:40:01 +0000
+I, [2016-11-28T10:40:01.360188 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:40:01.360916 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:40:01.361922 #27562]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:40:05.038459 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:40:05 +0000
+I, [2016-11-28T10:40:05.039316 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:40:05.039902 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:40:05.040044 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:40:06.286311 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:40:06 +0000
+I, [2016-11-28T10:40:06.287170 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:40:06.287935 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:40:06.288523 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:40:10.274085 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:40:10 +0000
+I, [2016-11-28T10:40:12.146446 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:40:12 +0000
+I, [2016-11-28T10:41:37.207156 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=8f03fe97077b7f41e2fa4742569250bf66792de20d4e32c4&code=4/KWyCIMviBmrMHQOeQuUkg-o7xRkxAQe6p-SDMFaXn-M" for 183.83.114.206 at 2016-11-28 10:41:37 +0000
+I, [2016-11-28T10:41:37.525225 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:41:37.525310 #27562]  INFO -- :   Parameters: {"state"=>"8f03fe97077b7f41e2fa4742569250bf66792de20d4e32c4", "code"=>"4/KWyCIMviBmrMHQOeQuUkg-o7xRkxAQe6p-SDMFaXn-M", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:41:37.530384 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:41:37.530508 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.1ms)
+I, [2016-11-28T10:41:38.513285 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:41:38 +0000
+I, [2016-11-28T10:41:38.514146 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:41:38.514904 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:41:38.515902 #27562]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:41:48.635482 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:41:48 +0000
+I, [2016-11-28T10:41:48.636372 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:41:48.636909 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:41:48.637035 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:41:49.128835 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:41:49 +0000
+I, [2016-11-28T10:41:49.129722 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:41:49.130426 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:41:49.130973 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:41:51.803204 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:41:51 +0000
+I, [2016-11-28T10:41:53.231280 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:41:53 +0000
+I, [2016-11-28T10:41:54.524618 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=faf30dff7a720343e8b2d1774afb51459fffca29131d21b3&code=4/Q4NgwiO5YOQIHHMp8d1AeZt49eqMuVeJjM9o0VVqD7Q" for 183.83.114.206 at 2016-11-28 10:41:54 +0000
+I, [2016-11-28T10:41:54.925362 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:41:54.925456 #27562]  INFO -- :   Parameters: {"state"=>"faf30dff7a720343e8b2d1774afb51459fffca29131d21b3", "code"=>"4/Q4NgwiO5YOQIHHMp8d1AeZt49eqMuVeJjM9o0VVqD7Q", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:41:54.930685 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:41:54.930812 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.2ms)
+I, [2016-11-28T10:41:55.332129 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:41:55 +0000
+I, [2016-11-28T10:41:55.332995 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:41:55.333732 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:41:55.334812 #27562]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:42:11.468823 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:42:11 +0000
+I, [2016-11-28T10:42:11.469735 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:42:11.470325 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:42:11.470474 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:42:11.953188 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:42:11 +0000
+I, [2016-11-28T10:42:11.954057 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:42:11.954811 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:42:11.955399 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:42:17.283234 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:42:17 +0000
+I, [2016-11-28T10:42:18.033800 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:42:18 +0000
+I, [2016-11-28T10:42:19.154821 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=47b73c256a894a5f09be25cee63febb37505ed80532180ac&code=4/Ez8YkzhZK7UzE67-ADoBucE7wXJAk657xe5MRvf2wY8" for 183.83.114.206 at 2016-11-28 10:42:19 +0000
+I, [2016-11-28T10:42:19.559473 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:42:19.559557 #27562]  INFO -- :   Parameters: {"state"=>"47b73c256a894a5f09be25cee63febb37505ed80532180ac", "code"=>"4/Ez8YkzhZK7UzE67-ADoBucE7wXJAk657xe5MRvf2wY8", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:42:19.565101 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:42:19.565226 #27562]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 3.5ms)
+I, [2016-11-28T10:42:19.979482 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:42:19 +0000
+I, [2016-11-28T10:42:19.980352 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:42:19.981087 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:42:19.982063 #27562]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:42:23.327954 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:42:23 +0000
+I, [2016-11-28T10:42:23.328813 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:42:23.329344 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:42:23.329478 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:42:24.200747 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:42:24 +0000
+I, [2016-11-28T10:42:24.201604 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:42:24.202350 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:42:24.202951 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:42:56.121789 #27562]  INFO -- : Started GET "/signout" for 89.145.95.81 at 2016-11-28 10:42:56 +0000
+I, [2016-11-28T10:42:56.122599 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:42:56.123002 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:42:56.123130 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:43:22.534435 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:43:22 +0000
+I, [2016-11-28T10:43:22.536101 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:43:22.536641 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:43:22.537216 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:43:31.397603 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:43:31 +0000
+I, [2016-11-28T10:43:31.398353 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:43:31.398986 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:43:31.399498 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:43:33.884098 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:43:33 +0000
+I, [2016-11-28T10:43:34.628323 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:43:34 +0000
+I, [2016-11-28T10:44:20.790421 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=37525bbcbd27a24faf34ad6c65293761d3c1a3b41c3c2b4f&code=4/7EYPORBSIVYXYcu6hxv9XiFbLpTQNZJyUrxzESxAW8g" for 183.83.114.206 at 2016-11-28 10:44:20 +0000
+I, [2016-11-28T10:44:21.255983 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:44:21.256081 #27562]  INFO -- :   Parameters: {"state"=>"37525bbcbd27a24faf34ad6c65293761d3c1a3b41c3c2b4f", "code"=>"4/7EYPORBSIVYXYcu6hxv9XiFbLpTQNZJyUrxzESxAW8g", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:44:21.260862 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:44:21.260972 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.1ms)
+I, [2016-11-28T10:44:21.636465 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:44:21 +0000
+I, [2016-11-28T10:44:21.637160 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:44:21.637763 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:44:21.638583 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:44:28.892108 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:44:28 +0000
+I, [2016-11-28T10:44:28.892879 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:44:28.893354 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:44:28.893488 #27562]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:44:30.120238 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:44:30 +0000
+I, [2016-11-28T10:44:30.120967 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:44:30.121561 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:44:30.122007 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:44:36.504431 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:44:36 +0000
+I, [2016-11-28T10:44:37.702818 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:44:37 +0000
+I, [2016-11-28T10:44:38.643177 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=96e8493b36d475aacaa5cd8784fdc5336483890df68ef292&code=4/lLaPpOAFOtTVCBmjXWr9eiOxXgpzQ0IsX9HvbqKTjRI" for 183.83.114.206 at 2016-11-28 10:44:38 +0000
+I, [2016-11-28T10:44:39.110948 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:44:39.111024 #27562]  INFO -- :   Parameters: {"state"=>"96e8493b36d475aacaa5cd8784fdc5336483890df68ef292", "code"=>"4/lLaPpOAFOtTVCBmjXWr9eiOxXgpzQ0IsX9HvbqKTjRI", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:44:39.116041 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:44:39.116176 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.3ms)
+I, [2016-11-28T10:44:39.584885 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:44:39 +0000
+I, [2016-11-28T10:44:39.585607 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:44:39.586268 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:44:39.587088 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:44:43.103236 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:44:43 +0000
+I, [2016-11-28T10:44:43.104038 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:44:43.104474 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:44:43.104583 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:44:44.037848 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:44:44 +0000
+I, [2016-11-28T10:44:44.038573 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:44:44.039177 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:44:44.039649 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:08.664097 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:08 +0000
+I, [2016-11-28T10:45:08.664785 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:08.665339 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:08.665801 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:09.262636 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:09 +0000
+I, [2016-11-28T10:45:09.263316 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:09.263930 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:09.264393 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:19.217213 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:45:19 +0000
+I, [2016-11-28T10:45:23.592331 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:45:23 +0000
+I, [2016-11-28T10:45:26.891355 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=db921cbe2375b2f1cba54480d5f2020d79e3f54d9752a1bd&code=4/7OqgOK7C9tJUGQ50j8Qd1w_TQeYrxfOZ4gbO6R1PA3s" for 183.83.114.206 at 2016-11-28 10:45:26 +0000
+I, [2016-11-28T10:45:27.138771 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:45:27.138853 #27562]  INFO -- :   Parameters: {"state"=>"db921cbe2375b2f1cba54480d5f2020d79e3f54d9752a1bd", "code"=>"4/7OqgOK7C9tJUGQ50j8Qd1w_TQeYrxfOZ4gbO6R1PA3s", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:45:27.143780 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:45:27.143892 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.1ms)
+I, [2016-11-28T10:45:27.583426 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:27 +0000
+I, [2016-11-28T10:45:27.584154 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:27.584751 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:27.585535 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:45:34.257415 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:45:34 +0000
+I, [2016-11-28T10:45:34.258148 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:45:34.258595 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:45:34.258703 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:34.923234 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:34 +0000
+I, [2016-11-28T10:45:34.923995 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:34.924592 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:34.925065 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:41.262072 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:41 +0000
+I, [2016-11-28T10:45:41.262760 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:41.263349 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:41.263850 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:45.121063 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:45:45 +0000
+I, [2016-11-28T10:45:45.173825 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:45:45 +0000
+I, [2016-11-28T10:45:47.938049 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:45:47 +0000
+I, [2016-11-28T10:45:48.855155 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=1ee354e03ba9c46ea8377e06ddfeaa53295f0cc91aaf8017&code=4/C2Y9vzacCMqMs55JCP1hTGeVp4jyE9kHjMaJqglkKJY" for 183.83.114.206 at 2016-11-28 10:45:48 +0000
+I, [2016-11-28T10:45:49.355024 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:45:49.355199 #27562]  INFO -- :   Parameters: {"state"=>"1ee354e03ba9c46ea8377e06ddfeaa53295f0cc91aaf8017", "code"=>"4/C2Y9vzacCMqMs55JCP1hTGeVp4jyE9kHjMaJqglkKJY", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:45:49.360562 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:45:49.360671 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.6ms)
+I, [2016-11-28T10:45:49.903816 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:49 +0000
+I, [2016-11-28T10:45:49.904511 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:49.905119 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:49.905914 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:45:54.028109 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:45:54 +0000
+I, [2016-11-28T10:45:54.028839 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:45:54.029273 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:45:54.029378 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:55.241928 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:45:55 +0000
+I, [2016-11-28T10:45:55.242624 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:45:55.243052 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:45:55.243170 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:45:56.603402 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:45:56 +0000
+I, [2016-11-28T10:45:56.604177 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:45:56.604804 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:45:56.605282 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:46:10.351506 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:46:10 +0000
+I, [2016-11-28T10:46:10.352222 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:46:10.352684 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:46:10.353160 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:46:15.378710 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:46:15 +0000
+I, [2016-11-28T10:46:17.763907 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:46:17 +0000
+I, [2016-11-28T10:46:47.716772 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=34622f8104a082aa5769133b81396210b4c04b595492aae3&code=4/gqvZJXZcV9T4PrgcW4q8dDV9efnd-XkS6VKKp0ekB0w" for 183.83.114.206 at 2016-11-28 10:46:47 +0000
+I, [2016-11-28T10:46:48.125396 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:46:48.125477 #27562]  INFO -- :   Parameters: {"state"=>"34622f8104a082aa5769133b81396210b4c04b595492aae3", "code"=>"4/gqvZJXZcV9T4PrgcW4q8dDV9efnd-XkS6VKKp0ekB0w", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:46:48.130515 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:46:48.130627 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.4ms)
+I, [2016-11-28T10:46:48.505849 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:46:48 +0000
+I, [2016-11-28T10:46:48.506543 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:46:48.507159 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:46:48.507977 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:47:06.279820 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:47:06 +0000
+I, [2016-11-28T10:47:06.280499 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:47:06.280936 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:47:06.281460 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:47:10.620981 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:47:10 +0000
+I, [2016-11-28T10:47:15.940133 #27562]  INFO -- : Started GET "/auth/google_oauth2" for 183.83.114.206 at 2016-11-28 10:47:15 +0000
+I, [2016-11-28T10:48:05.760861 #27562]  INFO -- : Started GET "/auth/google_oauth2/callback?state=2df4fdb7e176590a37980ba0bfc0586161821bf0f52349dd&code=4/rI2Me_v3Pk00iEcyw1XaXmC7A9jmNvy7fN4dZsFBTCM" for 183.83.114.206 at 2016-11-28 10:48:05 +0000
+I, [2016-11-28T10:48:06.225497 #27562]  INFO -- : Processing by SessionsController#create as HTML
+I, [2016-11-28T10:48:06.225581 #27562]  INFO -- :   Parameters: {"state"=>"2df4fdb7e176590a37980ba0bfc0586161821bf0f52349dd", "code"=>"4/rI2Me_v3Pk00iEcyw1XaXmC7A9jmNvy7fN4dZsFBTCM", "provider"=>"google_oauth2"}
+I, [2016-11-28T10:48:06.230341 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:48:06.230461 #27562]  INFO -- : Completed 302 Found in 5ms (ActiveRecord: 3.1ms)
+I, [2016-11-28T10:48:06.708005 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:48:06 +0000
+I, [2016-11-28T10:48:06.708698 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:48:06.709294 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:48:06.710103 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+I, [2016-11-28T10:48:11.039554 #27562]  INFO -- : Started GET "/signout" for 183.83.114.206 at 2016-11-28 10:48:11 +0000
+I, [2016-11-28T10:48:11.040325 #27562]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2016-11-28T10:48:11.040763 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:48:11.040871 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:48:11.574436 #27562]  INFO -- : Started GET "/" for 183.83.114.206 at 2016-11-28 10:48:11 +0000
+I, [2016-11-28T10:48:11.575983 #27562]  INFO -- : Processing by HomeController#show as HTML
+I, [2016-11-28T10:48:11.576600 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.0ms)
+I, [2016-11-28T10:48:11.577050 #27562]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2016-11-28T10:53:21.149487 #27562]  INFO -- : Started GET "/signout" for 52.71.155.178 at 2016-11-28 10:53:21 +0000
+I, [2016-11-28T10:53:21.150220 #27562]  INFO -- : Processing by SessionsController#destroy as */*
+I, [2016-11-28T10:53:21.150531 #27562]  INFO -- : Redirected to http://ec2-35-164-97-74.us-west-2.compute.amazonaws.com/
+I, [2016-11-28T10:53:21.150663 #27562]  INFO -- : Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+I, [2016-11-28T10:57:31.254577 #27562]  INFO -- : Started GET "/" for 52.71.155.178 at 2016-11-28 10:57:31 +0000
+I, [2016-11-28T10:57:31.255260 #27562]  INFO -- : Processing by HomeController#show as */*
+I, [2016-11-28T10:57:31.258687 #27562]  INFO -- :   Rendered home/show.html.erb within layouts/application (0.3ms)
+I, [2016-11-28T10:57:31.259220 #27562]  INFO -- : Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
